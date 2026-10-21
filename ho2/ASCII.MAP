@@ -1,0 +1,203 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 01390H 01391H _TEXT              CODE
+ 013A0H 017B9H 0041AH _DATA              DATA
+ 017BAH 017BDH 00004H _EMUSEG            DATA
+ 017BEH 017BFH 00002H _CRTSEG            DATA
+ 017C0H 017C1H 00002H _CVTSEG            DATA
+ 017C2H 017C7H 00006H _SCNSEG            DATA
+ 017C8H 0180DH 00046H _BSS               BSS
+ 0180EH 0180EH 00000H _BSSEND            STACK
+ 01810H 0188FH 00080H _STACK             STACK
+
+  Address         Publics by Name
+
+ 0000:01F8       DGROUP@
+ 013A:0188       emws_adjust
+ 013A:018C       emws_BPsafe
+ 013A:0184       emws_control
+ 013A:018A       emws_fixSeg
+ 013A:016E       emws_initialSP
+ 013A:00AE       emws_limitSP
+ 013A:017E       emws_nmiVector
+ 013A:017A       emws_saveVector
+ 013A:018E       emws_stamp
+ 013A:0182       emws_status
+ 013A:0186       emws_TOS
+ 013A:0192       emws_version
+ 0000:01E2       _abort
+ 0000:03E3       _atexit
+ 0000:05AE       _brk
+ 013A:0088       _environ
+ 013A:0094       _errno
+ 0000:0279       _exit
+ 0000:0A73       _fflush
+ 0000:0B23       _fputc
+ 0000:0C53       _fputchar
+ 0000:136A       _free
+ 0000:0615       _fseek
+ 0000:0679       _ftell
+ 0000:06D8       _isatty
+ 0000:09E6       _itoa
+ 0000:093C       _lseek
+ 0000:0A2B       _ltoa
+ 0000:01FA       _main
+ 0000:04E8       _malloc
+ 0000:0AF1       _printf
+ 0000:05BC       _sbrk
+ 0000:06F0       _setvbuf
+ 0000:0A0F       _ultoa
+ 0000:07E3       _write
+ 013A:0096       __8087
+ 013A:0084       __argc
+ 013A:0086       __argv
+ 013A:0200       __atexitcnt
+ 013A:0428       __atexittbl
+ 013A:00A6       __brklvl
+ 0000:0000  Abs  __cvtfak
+ 013A:019A       __doserrno
+ 013A:019C       __dosErrorToSV
+ 013A:008A       __envLng
+ 013A:008C       __envseg
+ 013A:008E       __envSize
+ 0000:0121       __exit
+ 013A:01F6       __exitbuf
+ 013A:01F8       __exitfopen
+ 013A:01FA       __exitopen
+ 0000:0B0A       __fputc
+ 0000:0C69       __FPUTN
+ 013A:00A2       __heapbase
+ 013A:01FC       __heaplen
+ 013A:00AA       __heaptop
+ 013A:0074       __Int0Vector
+ 013A:0078       __Int4Vector
+ 013A:007C       __Int5Vector
+ 013A:0080       __Int6Vector
+ 0000:023D       __IOERROR
+ 0000:0967       __LONGTOA
+ 013A:0342       __openfd
+ 013A:0092       __osmajor
+ 013A:0093       __osminor
+ 013A:0090       __psp
+ 0000:0D23       __REALCVT
+ 013A:0420       __RealCvtVector
+ 0000:01A5       __restorezero
+ 013A:0422       __ScanTodVector
+ 0000:02AE       __setargv
+ 0000:0399       __setenvp
+ 013A:0098       __StartTime
+ 013A:036A       __stdinStarted
+ 013A:036C       __stdoutStarted
+ 013A:01FE       __stklen
+ 013A:0202       __streams
+ 013A:0092       __version
+ 0000:0D52       __VPRINTER
+ 0000:08F6       __write
+ 0000:07C2       __xfflush
+ 0000:0556       ___brk
+ 013A:009E       ___brklvl
+ 013A:046C       ___first
+ 013A:009C       ___heapbase
+ 013A:00A0       ___heaptop
+ 013A:0468       ___last
+ 0000:0409       ___pull_free_block
+ 013A:046A       ___rover
+ 0000:057A       ___sbrk
+
+  Address         Publics by Value
+
+ 0000:0000  Abs  __cvtfak
+ 0000:0121       __exit
+ 0000:01A5       __restorezero
+ 0000:01E2       _abort
+ 0000:01F8       DGROUP@
+ 0000:01FA       _main
+ 0000:023D       __IOERROR
+ 0000:0279       _exit
+ 0000:02AE       __setargv
+ 0000:0399       __setenvp
+ 0000:03E3       _atexit
+ 0000:0409       ___pull_free_block
+ 0000:04E8       _malloc
+ 0000:0556       ___brk
+ 0000:057A       ___sbrk
+ 0000:05AE       _brk
+ 0000:05BC       _sbrk
+ 0000:0615       _fseek
+ 0000:0679       _ftell
+ 0000:06D8       _isatty
+ 0000:06F0       _setvbuf
+ 0000:07C2       __xfflush
+ 0000:07E3       _write
+ 0000:08F6       __write
+ 0000:093C       _lseek
+ 0000:0967       __LONGTOA
+ 0000:09E6       _itoa
+ 0000:0A0F       _ultoa
+ 0000:0A2B       _ltoa
+ 0000:0A73       _fflush
+ 0000:0AF1       _printf
+ 0000:0B0A       __fputc
+ 0000:0B23       _fputc
+ 0000:0C53       _fputchar
+ 0000:0C69       __FPUTN
+ 0000:0D23       __REALCVT
+ 0000:0D52       __VPRINTER
+ 0000:136A       _free
+ 013A:0074       __Int0Vector
+ 013A:0078       __Int4Vector
+ 013A:007C       __Int5Vector
+ 013A:0080       __Int6Vector
+ 013A:0084       __argc
+ 013A:0086       __argv
+ 013A:0088       _environ
+ 013A:008A       __envLng
+ 013A:008C       __envseg
+ 013A:008E       __envSize
+ 013A:0090       __psp
+ 013A:0092       __version
+ 013A:0092       __osmajor
+ 013A:0093       __osminor
+ 013A:0094       _errno
+ 013A:0096       __8087
+ 013A:0098       __StartTime
+ 013A:009C       ___heapbase
+ 013A:009E       ___brklvl
+ 013A:00A0       ___heaptop
+ 013A:00A2       __heapbase
+ 013A:00A6       __brklvl
+ 013A:00AA       __heaptop
+ 013A:00AE       emws_limitSP
+ 013A:016E       emws_initialSP
+ 013A:017A       emws_saveVector
+ 013A:017E       emws_nmiVector
+ 013A:0182       emws_status
+ 013A:0184       emws_control
+ 013A:0186       emws_TOS
+ 013A:0188       emws_adjust
+ 013A:018A       emws_fixSeg
+ 013A:018C       emws_BPsafe
+ 013A:018E       emws_stamp
+ 013A:0192       emws_version
+ 013A:019A       __doserrno
+ 013A:019C       __dosErrorToSV
+ 013A:01F6       __exitbuf
+ 013A:01F8       __exitfopen
+ 013A:01FA       __exitopen
+ 013A:01FC       __heaplen
+ 013A:01FE       __stklen
+ 013A:0200       __atexitcnt
+ 013A:0202       __streams
+ 013A:0342       __openfd
+ 013A:036A       __stdinStarted
+ 013A:036C       __stdoutStarted
+ 013A:0420       __RealCvtVector
+ 013A:0422       __ScanTodVector
+ 013A:0428       __atexittbl
+ 013A:0468       ___last
+ 013A:046A       ___rover
+ 013A:046C       ___first
+
+Program entry point at 0000:0000
+
